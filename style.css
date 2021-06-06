@@ -1,8 +1,25 @@
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+html, body {
+    margin: 0;
+    padding: 0;
 }
+
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(31,10,98,1) 0%, rgba(110,98,180,1) 75%, rgba(181,177,254,1) 100%);
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.Button {
+    background-color: #AE91FF;
+}
+
+.Scroll-down {
+    margin-left: 50%;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

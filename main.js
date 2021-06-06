@@ -1,6 +1,10 @@
 import './style.css'
 
-document.querySelector('#app').innerHTML = `
-  <h1>Hello Vite!</h1>
-  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
-`
+import logoUrl from './assets/img/logo.png'
+document.getElementById('logo-img').src = logoUrl
+
+import introUrl from './assets/img/intro.png'
+document.getElementById('intro-img').src = introUrl
+
+import scrollDownUrl from './assets/img/scroll-down.png'
+document.getElementById('scroll-down-img').src = scrollDownUrl
