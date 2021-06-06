@@ -8,7 +8,8 @@
     <title>TooDoo Website</title>
   </head>
   <body class="text-white">
-    <header class="h-screen px-32 py-12 flex flex-col justify-between items-center">
+<!---------------------------------  Header -------------------------------------->
+    <header class="h-screen px-40 py-12 flex flex-col justify-between items-center">
       <img id="logo-img" alt="Logo" class="w-1/4">
       <div class="flex justify-between items-end h-1/2">
         <div class="w-2/5">
@@ -20,14 +21,35 @@
       </div>
       <a href="" class="inline-block"><img id="scroll-down-img" alt="Voir plus"></a>
     </header>
-<!--    <main>-->
-<!--      <section>-->
-<!--        <div>-->
-<!--          <h2>Pendant 4 semaines</h2>-->
-<!--          <p>Vous avez 1 mois pour explorer les 4 îles et réaliser les missions présentes sur chacune d’elles ! Passez d’un univers désertique à un univers sous-marin, en traversant la forêt enchantée, sans oublier le monde glacial !</p>-->
-<!--        </div>-->
-<!--        <div></div>-->
-<!--      </section>-->
+<!----------------------------------------------------------------------->
+
+    <main class="px-40">
+<!---------------------------------  World Container -------------------------------------->
+      <section class="py-32">
+        <div class="w-1/3 mx-auto">
+          <h2 class="text-center mb-8">Pendant 4 semaines</h2>
+          <p>Vous avez 1 mois pour explorer les 4 îles et réaliser les missions présentes sur chacune d’elles ! Passez d’un univers désertique à un univers sous-marin, en traversant la forêt enchantée, sans oublier le monde glacial !</p>
+        </div>
+        <div class="world--container flex justify-between items-end mt-24">
+          <div class="world--container__item">
+            <img id="enchanted-forest-img" alt="La forêt enchantée">
+            <p>La forêt enchantée</p>
+          </div>
+          <div class="world--container__item">
+            <img id="submarine-world-img" alt="Le monde sous-marin">
+            <p>Le monde sous-marin</p>
+          </div>
+          <div class="world--container__item">
+            <img id="big-iceberg-img" alt="Le grand iceberg">
+            <p>Le grand iceberg</p>
+          </div>
+          <div class="world--container__item">
+            <img id="sand-dunes-img" alt="Les Dunes de sable">
+            <p>Les Dunes de sable</p>
+          </div>
+        </div>
+      </section>
+<!----------------------------------------------------------------------->
 
 <!--      <section>-->
 <!--        <div>-->
@@ -46,7 +68,7 @@
 <!--            Combinez les capacités et les aptitudes de vos TooDoos lors du combat pour triompher et chasser les Electros de l’île !</p>-->
 <!--        </div>-->
 <!--      </section>-->
-<!--    </main>-->
+    </main>
     <script type="module" src="/main.js"></script>
   </body>
 </html>

@@ -20,6 +20,20 @@ h2 {
     margin-left: 50%;
 }
 
+.world--container {
+    .world--container__item {
+        img {
+            margin-bottom: 40px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 18px;
+            font-weight: 700;
+        }
+    }
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
