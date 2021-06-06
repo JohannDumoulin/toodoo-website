@@ -20,3 +20,9 @@ document.getElementById('big-iceberg-img').src = bigIcebergUrl
 
 import sandDunesUrl from './assets/img/sand-dunes.png'
 document.getElementById('sand-dunes-img').src = sandDunesUrl
+
+import toodoosUrl from './assets/img/toodoos.png'
+document.getElementById('toodoos-img').src = toodoosUrl
+
+import electrosUrl from './assets/img/electros.png'
+document.getElementById('electros-img').src = electrosUrl
