@@ -1,4 +1,5 @@
 import './style.scss'
+import Glide from '@glidejs/glide'
 
 import logoUrl from './assets/img/logo.png'
 document.getElementById('logo-img').src = logoUrl
@@ -26,3 +27,28 @@ document.getElementById('toodoos-img').src = toodoosUrl
 
 import electrosUrl from './assets/img/electros.png'
 document.getElementById('electros-img').src = electrosUrl
+
+import leoUrl from './assets/img/leo.png'
+document.getElementById('leo-img').src = leoUrl
+
+import maelysUrl from './assets/img/maelys.png'
+document.getElementById('maelys-img').src = maelysUrl
+
+import vincentUrl from './assets/img/vincent.png'
+document.getElementById('vincent-img').src = vincentUrl
+
+import clothildeUrl from './assets/img/clothilde.png'
+document.getElementById('clothilde-img').src = clothildeUrl
+
+import johannUrl from './assets/img/johann.png'
+document.getElementById('johann-img').src = johannUrl
+
+import romainUrl from './assets/img/romain.png'
+document.getElementById('romain-img').src = romainUrl
+
+new Glide('.glide', {
+    type: 'carousel',
+    perView: 4,
+    perTouch: 1,
+    gap: 0,
+}).mount()
