@@ -46,6 +46,15 @@ document.getElementById('johann-img').src = johannUrl
 import romainUrl from './assets/img/romain.png'
 document.getElementById('romain-img').src = romainUrl
 
+import gobelinsUrl from './assets/img/gobelins.png'
+document.getElementById('gobelins-img').src = gobelinsUrl
+
+import logoInternetUrl from './assets/img/logo-internet.svg'
+document.getElementById('logo-internet-img').src = logoInternetUrl
+
+import logoInstagramUrl from './assets/img/logo-instagram.svg'
+document.getElementById('logo-instagram-img').src = logoInstagramUrl
+
 new Glide('.glide', {
     type: 'carousel',
     perView: 4,

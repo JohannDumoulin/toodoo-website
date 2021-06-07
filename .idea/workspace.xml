@@ -22,6 +22,7 @@
     <list default="true" id="fc2cffbb-4307-4a4f-8e77-eba99022615d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +67,8 @@
       <option name="presentableId" value="Default" />
       <updated>1622895995405</updated>
       <workItem from="1622895996650" duration="6803000" />
-      <workItem from="1622964727048" duration="10949000" />
+      <workItem from="1622964727048" duration="11857000" />
+      <workItem from="1623048305022" duration="1408000" />
     </task>
     <servers />
   </component>
@@ -83,5 +85,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
